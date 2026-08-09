@@ -2,44 +2,61 @@
 
 ## Objective
 
-Deploy an Ubuntu Server virtual machine for use as a Home Lab.
+Deploy an Ubuntu Server virtual machine that will serve as the foundation of the Home Lab.
+
+---
 
 ## Environment
 
-Platform:
+Platform
+
 VirtualBox
 
-Operating System:
+Operating System
+
 Ubuntu Server 24.04 LTS
 
-RAM:
+RAM
+
 4 GB
 
-CPU:
+CPU
+
 2 vCPU
 
-Disk:
+Disk
+
 40 GB
 
-Network:
+Network
+
 Bridged Adapter
 
-## Tasks Completed
+---
 
-- Installed Ubuntu Server
-- Updated packages
-- Enabled OpenSSH
-- Verified internet connectivity
+## Installation Steps
 
-## Commands Used
+- Download Ubuntu Server ISO
+- Create Virtual Machine
+- Configure CPU, RAM and Disk
+- Install Ubuntu
+- Enable OpenSSH
+- Install updates
+
+---
+
+## Verification
 
 ```bash
-sudo apt update
-sudo apt upgrade -y
 hostnamectl
+
 ip addr
+
+lsb_release -a
 ```
+
+---
 
 ## Result
 
-The server was successfully installed and prepared for further configuration.
+Ubuntu Server installed successfully and ready for configuration.
