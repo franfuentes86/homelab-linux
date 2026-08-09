@@ -1,66 +1,87 @@
-# Linux Home Lab
+# 🐧 Linux Home Lab
 
-## Overview
+![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
+![OS](https://img.shields.io/badge/OS-Ubuntu%2024.04-orange)
+![Docker](https://img.shields.io/badge/Docker-Installed-2496ED)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This project documents my personal Linux Home Lab built while studying IT Infrastructure and Systems Administration (ASIR).
+---
 
-The objective is to develop practical experience with Linux administration, networking, Docker, automation and cybersecurity.
+## 📖 Project Overview
+
+This repository documents my Linux Home Lab built as part of my IT Infrastructure and Systems Administration (ASIR) studies.
+
+The goal is to gain hands-on experience with Linux system administration, networking, virtualization, Docker, automation and cybersecurity by building and documenting a complete server environment.
 
 ---
 
 ## Technologies
 
-- Ubuntu Server 24.04
+- Ubuntu Server 24.04 LTS
 - Docker
+- Git
 - Bash
 - SSH
 - UFW Firewall
-- Git
-- Raspberry Pi
 - VirtualBox
+- Nginx
+- Portainer
+- Samba
+- Raspberry Pi
 
 ---
 
 ## Skills Demonstrated
 
-- Linux Administration
-- User Management
-- Networking
-- SSH Configuration
-- Firewall Configuration
-- Docker Deployment
-- Backup Automation
-- Bash Scripting
+✔ Linux Administration
+
+✔ User & Group Management
+
+✔ Network Configuration
+
+✔ SSH Hardening
+
+✔ Docker Deployment
+
+✔ Bash Automation
+
+✔ Firewall Configuration
+
+✔ Documentation
 
 ---
 
-## Project Roadmap
+## Roadmap
 
-- [ ] Ubuntu Installation
+- [x] Ubuntu Installation
 - [ ] Static IP
-- [ ] SSH
-- [ ] Users & Groups
-- [ ] UFW Firewall
+- [ ] User Management
+- [ ] SSH Configuration
+- [ ] Firewall
 - [ ] Docker
+- [ ] Portainer
 - [ ] Samba
-- [ ] Backup Script
-- [ ] Monitoring Script
-- [ ] Documentation
+- [ ] Backup Automation
+- [ ] Monitoring
+- [ ] Network Documentation
 
 ---
 
 ## Repository Structure
 
-/docs
-
-/images
-
-/scripts
-
-/configs
+```
+docs/
+configs/
+scripts/
+images/
+```
 
 ---
 
-## Goal
+## Author
 
-Build a fully documented Linux Home Lab that demonstrates practical Systems Administration skills for future employers.
+Francisco Fuentes
+
+Aspiring Systems Administrator
+
+Looking for an IT Internship in Australia 🇦🇺
