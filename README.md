@@ -1,87 +1,77 @@
-# 🐧 Linux Home Lab
+# 🐧 Linux Infrastructure Home Lab
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
-![OS](https://img.shields.io/badge/OS-Ubuntu%2024.04-orange)
-![Docker](https://img.shields.io/badge/Docker-Installed-2496ED)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%20Server%2024.04-E95420)
+![Docker](https://img.shields.io/badge/Docker-Containerisation-2496ED)
+![Bash](https://img.shields.io/badge/Bash-Automation-4EAA25)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+
+## 📖 Overview
+
+Hands-on Linux infrastructure home lab developed as part of my
+Advanced Diploma in Network Systems Administration (ASIR).
+
+The project focuses on practical systems administration,
+network configuration, security, automation and service deployment.
+
+The environment is designed to simulate real-world infrastructure
+tasks and provide documented, repeatable administration procedures.
 
 ---
 
-## 📖 Project Overview
-
-This repository documents my Linux Home Lab built as part of my IT Infrastructure and Systems Administration (ASIR) studies.
-
-The goal is to gain hands-on experience with Linux system administration, networking, virtualization, Docker, automation and cybersecurity by building and documenting a complete server environment.
-
----
-
-## Technologies
+## 🖥️ Environment
 
 - Ubuntu Server 24.04 LTS
-- Docker
-- Git
-- Bash
-- SSH
-- UFW Firewall
 - VirtualBox
+- Raspberry Pi
+- Docker
 - Nginx
 - Portainer
 - Samba
-- Raspberry Pi
+- Git
+- Bash
 
 ---
 
-## Skills Demonstrated
+## 🌐 Networking & Security
 
-✔ Linux Administration
-
-✔ User & Group Management
-
-✔ Network Configuration
-
-✔ SSH Hardening
-
-✔ Docker Deployment
-
-✔ Bash Automation
-
-✔ Firewall Configuration
-
-✔ Documentation
+- Static IP configuration
+- Network configuration
+- SSH administration
+- SSH hardening
+- UFW firewall
+- Firewall rule management
+- Network documentation
 
 ---
 
-## Roadmap
+## 🐳 Services
 
-- [x] Ubuntu Installation
-- [ ] Static IP
-- [ ] User Management
-- [ ] SSH Configuration
-- [ ] Firewall
-- [ ] Docker
-- [ ] Portainer
-- [ ] Samba
-- [ ] Backup Automation
-- [ ] Monitoring
-- [ ] Network Documentation
+### Docker
+
+Container deployment and management.
+
+### Nginx
+
+Web server and reverse-proxy experimentation.
+
+### Portainer
+
+Container management through a web interface.
+
+### Samba
+
+File-sharing services within the lab environment.
 
 ---
 
-## Repository Structure
+## ⚙️ Automation
 
-```
-docs/
-configs/
+The repository includes Bash automation for system administration tasks.
+
+### Backup Automation
+
+A backup script is included to create backups of home directories.
+
+```text
 scripts/
-images/
-```
-
----
-
-## Author
-
-Francisco Fuentes
-
-Aspiring Systems Administrator
-
-Looking for an IT Internship in Australia 🇦🇺
+└── backup_home.sh
