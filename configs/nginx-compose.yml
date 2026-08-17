@@ -1,0 +1,11 @@
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-lab
+    restart: unless-stopped
+
+    ports:
+      - "80:80"
+
+    volumes:
+      - ./html:/usr/share/nginx/html:ro

@@ -1,0 +1,32 @@
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22/tcp                     ALLOW IN    Anywhere                  
+[ 2] 80/tcp                     ALLOW IN    Anywhere                  
+[ 3] 443/tcp                    ALLOW IN    Anywhere                  
+[ 4] 2223/tcp                   ALLOW IN    Anywhere                  
+[ 5] Samba                      ALLOW IN    192.168.56.0/24           
+[ 6] 22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[ 7] 80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[ 8] 443/tcp (v6)               ALLOW IN    Anywhere (v6)             
+[ 9] 2223/tcp (v6)              ALLOW IN    Anywhere (v6)             
+
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                  
+80/tcp                     ALLOW IN    Anywhere                  
+443/tcp                    ALLOW IN    Anywhere                  
+2223/tcp                   ALLOW IN    Anywhere                  
+137,138/udp (Samba)        ALLOW IN    192.168.56.0/24           
+139,445/tcp (Samba)        ALLOW IN    192.168.56.0/24           
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+443/tcp (v6)               ALLOW IN    Anywhere (v6)             
+2223/tcp (v6)              ALLOW IN    Anywhere (v6)             
+
